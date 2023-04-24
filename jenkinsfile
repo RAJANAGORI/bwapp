@@ -1,9 +1,5 @@
 pipeline {
 agent any
-tools {
-     maven 'Maven3'
-     sonarqube 'sq1'
-  }
 stages {
   stage('Scan') {
     steps {
